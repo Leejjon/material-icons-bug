@@ -22,10 +22,4 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  ssr: {
-    noExternal: ['@mui/icons-material'], 
-  },
-  optimizeDeps: {
-    include: ['@mui/icons-material'], 
-  },
 });
